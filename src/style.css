@@ -1,0 +1,28 @@
+.podcasts__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+.podcasts__item {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  padding: 30px 30px;
+  width: 44%;
+  border: 1px solid black;
+}
+
+.podcasts__pause {
+  display: none;
+}
+
+.podcasts__pause--active {
+  display: flex;
+}
+
+.podcasts__svg--closed {
+  display: none;
+}
+
